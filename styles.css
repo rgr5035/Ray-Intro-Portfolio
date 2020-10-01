@@ -1,0 +1,28 @@
+.shadow {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.container {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.text-large {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
+
+.img-thumbnail {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+}
