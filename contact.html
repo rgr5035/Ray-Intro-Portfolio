@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nice to Meet You!</title>
+
+    <!--Below are links to Bootsrap, JS and CSS-->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -27,10 +29,12 @@
     ></script>
     <link rel="stylesheet" href="./assets/styles.css" />
     <link
-    href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@500&display=swap"
-    rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <!--Navbar information found below-->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="index.html">Robby Ray</a>
       <button
@@ -51,42 +55,64 @@
         </div>
       </div>
     </nav>
-<div class="shadow p-3 mb-5 text-light bg-dark rounded">
-  <div class="container">
-    <div class="row">
-      <div class="col text-center">
-        <div class="page-header text-large">
-          <header>Let's Connect</header>
+
+    <!--"Contact Me" information found below in shadowed box-->
+    <section class="shadow p-3 mb-5 text-light bg-dark rounded">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <div class="page-header text-large">
+              <header>Let's Connect</header>
+            </div>
+          </div>
+        </div>
+        <form>
+          <div class="form-row">
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First name"
+              />
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" />
+            </div>
+          </div>
+        </form>
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Share your thoughts</label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+        </form>
+        <div class="row">
+          <div class="col text-center">
+            <button type="button" class="btn btn-secondary btn-lg">
+              Submit
+            </button>
+          </div>
         </div>
       </div>
-    </div>
-    <form>
-      <div class="form-row">
-        <div class="col">
-          <input type="text" class="form-control" placeholder="First name">
-        </div>
-        <div class="col">
-          <input type="text" class="form-control" placeholder="Last name">
-        </div>
-      </div>
-    </form>
-    <form>
-      <div class="form-group">
-        <label for="exampleFormControlInput1">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1">Share your thoughts</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-    </form>
-    <div class="row">
-      <div class="col text-center">
-        <button type="button" class="btn btn-secondary btn-lg">Submit</button>
-      </div>
-    </div>
-  </div>  
-    <footer class="fixed-bottom  text-center text-muted bg-dark">Robby Ray</footer>
+    </section>
+
+    <!--Footer information found below-->
+    <footer class="fixed-bottom text-center text-muted bg-dark">
+      Robby Ray
+    </footer>
   </body>
 </html>
