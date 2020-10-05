@@ -7,7 +7,7 @@ Homework Summary
 Page Layouts
 
     About Me (labeled in Navbar as 'Robby Ray')
-        This main page is the seciton where you will find a thumbnail image of myself, with an introductory paragrraph, all wrapped within a container. The use of the grid system was at play, along with some basic formatting to fit everything within a shadowed box. You will see that once the responsiveness shrinks to smaller screen resolutions, the image will then format itself to align on top of the paragraph, for easier readability. The page finishes with a sticky footer found on the bottom.
+        This main page is the section where you will find a thumbnail image of myself, with an introductory paragraph, all wrapped within a container. The use of the grid system was at play, along with some basic formatting to fit everything within a shadowed box. You will see that once the responsiveness shrinks to smaller screen resolutions, the image will then format itself to align on top of the paragraph, for easier readability. The page finishes with a sticky footer found on the bottom.
 
     Portfolio Page
         This section includes another shadowed box containing various thumbnail images laid out in the grid system. Once the screen shrinks for responsiveness, the images will eventually align on top of one another. Standard column formatting was at use for this page. The page finishes with a sticky footer found on the bottom.
