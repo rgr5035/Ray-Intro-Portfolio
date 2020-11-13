@@ -24,8 +24,8 @@ body {
 
 .img-thumbnail {
   margin-bottom: 20px;
-  height: 250px;
-  width: 250px;
+  height: auto;
+  width: auto;
 }
 
 form {
