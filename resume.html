@@ -66,48 +66,59 @@
         <div class="navbar-nav">
           <a class="nav-link" href="portfolio.html">Portfolio</a>
           <a class="nav-link" href="photo-gallery.html">Photo Gallery</a>
-          <a class="nav-link" href="resume.html">Resume</a>
           <a class="nav-link" href="contact.html">Contact</a>
         </div>
       </div>
     </nav>
 
-    <!--Main "About Me" information found here in shadowed box-->
+    <!--"Contact Me" information found below in shadowed box-->
     <main class="shadow p-3 mb-5 text-light bg-dark rounded">
       <section class="container">
         <div class="row">
-          <div class="col-m-12">
+          <div class="col text-center">
             <div class="page-header text-large">
-              <header>About Me</header>
+              <header>Resume</header>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6">
-            <img
-              src="assets/0.jpg"
-              alt="Robby Headshot"
-              class="img-thumbnail"
+        <form>
+          <div class="form-row">
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First name"
+              />
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" />
+            </div>
+          </div>
+        </form>
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
             />
           </div>
-          <div class="col-lg-9 col-md-6">
-            After ten years of working in the hospitality field with various
-            event companies across the world, I am very excited to begin my
-            journey in technology. Having donned the "gamer nerd" title with
-            pride my entire life, I am finally ready to take my education to the
-            next level and join the exciting professional world that coding
-            offers. I am eager to dive into the new material with other
-            like-minded individuals who share a passion for this exciting
-            industry. When the world is not in a pandemic, I am an avid lover of
-            travel. I've lived in six different cities (both within the U.S. and
-            internationally), and hope that number continues to grow. When I
-            don't have big travel plans, I spend much of my free time exploring
-            the beautiful world of video games. I am hoping that I will be able
-            to break into the competitive world of gaming design once I spend
-            some time in entry level positions enhancing my skillset. As
-            mentioned above, I would love the flexibiliy of travel with my
-            career, so the remote capabilites of this industry most certainly
-            allure me to furthering my profession in technology.
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Share your thoughts</label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+        </form>
+        <div class="row">
+          <div class="col text-center">
+            <button type="button" class="btn btn-secondary btn-lg">
+              Submit
+            </button>
           </div>
         </div>
       </section>
