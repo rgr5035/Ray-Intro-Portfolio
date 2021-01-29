@@ -48,6 +48,10 @@
     <link rel="stylesheet" href="./assets/styles.css" />
   </head>
   <body>
+    <!-- <div id="bg">
+      <img src="assets/brick-background.jpg">
+    </div> -->
+
     <!--Navbar information found below-->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="index.html">Robby Ray</a>
@@ -72,8 +76,9 @@
     </nav>
 
     <!--"Contact Me" information found below in shadowed box-->
-    <main class="shadow p-3 mb-5 text-light bg-dark rounded">
-      <section class="container">
+    <div class="container justify-content-center">
+    <main class="container shadow p-3 mb-5 text-light bg-dark rounded ">
+      
         <div class="row">
           <div class="col text-center">
             <div class="page-header text-large">
@@ -97,33 +102,33 @@
         </form>
         <form>
           <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
+            <label for="user-email">Email address</label>
             <input
               type="email"
               class="form-control"
-              id="exampleFormControlInput1"
+              id="user-email"
               placeholder="name@example.com"
             />
           </div>
           <div class="form-group">
-            <label for="exampleFormControlTextarea1">Share your thoughts</label>
+            <label for="user-message">Share your thoughts</label>
             <textarea
               class="form-control"
-              id="exampleFormControlTextarea1"
+              id="user-message"
               rows="3"
             ></textarea>
           </div>
         </form>
         <div class="row">
           <div class="col text-center">
-            <button type="button" class="btn btn-secondary btn-lg">
+            <button type="button" class="btn btn-secondary btn-lg" id="submit-btn">
               Submit
             </button>
           </div>
         </div>
-      </section>
+      
     </main>
-
+    </div>
     <!--Footer information found below-->
     <footer class="fixed-bottom text-center text-muted bg-dark">
       <a
@@ -142,5 +147,7 @@
         target="_blank"
       ></a>
     </footer>
+
+    <script src="assets/contact.js" type="text/javascript"></script>
   </body>
 </html>
