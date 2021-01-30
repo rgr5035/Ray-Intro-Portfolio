@@ -1,16 +1,8 @@
-/*Body formatted with external Google Fonts and background image in assets folder*/
+/*Body formatted with external Google Fonts and background color*/
 body {
   font-family: "Manrope", sans-serif;
-  /* background-image: url("rocks-wallpaper.jpg");
-  background-size: cover; */
-  /* /* width: 100%;
-  height: 100%; */
-  /* background-repeat: no-repeat;  */
   background-color: rgb(80, 102, 112);
-  
 }
-
-
 
 .list-group-item {
   background-color: rgb(96, 114, 122);
@@ -23,7 +15,6 @@ body {
 
 .container {
   margin-top: 90px;
-  /* background-color: rgb(80, 102, 112); */
 }
 
 /*text formatting for header*/
@@ -41,8 +32,6 @@ body {
 form {
   margin-bottom: 20px;
 }
-
-
 
 .navbar {
   background-color: rgb(50, 64, 71);
