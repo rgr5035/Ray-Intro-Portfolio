@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -47,13 +47,14 @@
      <!--External link to CSS-->
      <link rel="stylesheet" href="./assets/styles.css" />
   </head>
-  <body>
+  
+  <body class="d-flex flex-column h-100">
     <!-- <div id="bg">
       <img src="assets/brick-background.jpg">
     </div> -->
 
     <!--Navbar information found below-->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark shadow-lg">
       <a class="navbar-brand" href="index.html">Robby Ray</a>
       <button
         class="navbar-toggler"
@@ -76,144 +77,147 @@
     </nav>
 
     <!--Portfolio information with links to applications found below in shadowed box-->
-    <div class="container justify-content-center">
-    <main class="shadow p-3 mb-5 text-light bg-dark rounded">
-      
-        <div class="row">
-          <div class="col text-center">
-            <div class="page-header text-large">
-              <header>GitHub Portfolio</header>
-            </div>
+    <div class="container justify-content-center p-3 mb-5 rounded">
+
+      <div class="row">
+        <div class="col text-center">
+          <div class="page-header text-large text-dark">
+            <header>GitHub Portfolio</header>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-6 text-center">
-            <img
-              src="./assets/work-day-clock.jpg"
-              alt="Analog Clock"
-              class="img-thumbnail"
-            />
-          </div>
-          <div class="col-md-6">
-            <h3>Work Day Planner</h3>
+      </div>
+
+      <div class="row float-start shadow-lg p-3 mb-5 rounded">
+        <div class="col-md-6">
+          <img
+            src="./assets/work-day-clock.jpg"
+            alt="Analog Clock"
+            class="img-thumbnail"
+          />
+        </div>
+        <div class="col-md-6 text-center text-dark">
+          <h3>Work Day Planner</h3>
             <h5>
               A simple work day calendar to plan your busy schedule and stay
               organized
             </h5>
-            <ul>
-              <li>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
                 <a
-                  class="text-light"
+                  class="text-dark"
                   href="https://github.com/rgr5035/Ray-Day_Planner"
                   target="_blank"
                   >GitHub</a
                 >
               </li>
-              <li>
+              <li class="list-group-item">
                 <a
-                  class="text-light"
+                  class="text-dark"
                   href="https://rgr5035.github.io/Ray-Day_Planner/"
                   target="_blank"
                   >Live Site</a
                 >
               </li>
             </ul>
-          </div>
         </div>
-        <div class="row">
-          <div class="col-md-6 text-center">
-            <img
-              src="./assets/Weather-App.jpg"
-              alt="Colorful Umbrellas"
-              class="img-thumbnail"
-            />
-          </div>
+      </div>
+
+      <div class="row shadow-lg p-3 mb-5 rounded">
+        <div class="col-md-6">
+          <img
+            src="./assets/Weather-App.jpg"
+            alt="Colorful Umbrellas"
+            class="img-thumbnail"
+          />
+        </div>
+        <div class="col-md-6 text-center text-dark">
+          <h3>Weather Dashboard</h3>
+          <h5>
+            Plan your upcoming trip with real-time weather information based
+            on your preferred U.S. City
+          </h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <a
+                class="text-dark"
+                href="https://github.com/rgr5035/Ray-Weather-App"
+                target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a
+                class="text-dark"
+                href="https://rgr5035.github.io/Ray-Weather-App/"
+                target="_blank"
+                >Live Site</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row shadow-lg p-3 mb-5 rounded">
+        <div class="col-md-6">
+          <img
+            src="./assets/plant-photo.jpg"
+            alt="Plant photo"
+            class="img-thumbnail"
+          />
+        </div>
+        <div class="col-md-6 text-center text-dark">
+          <h3>Project One: Get in my Plants!</h3>
+          <h5>
+            Collaborative application that allows the user to search for their
+            favorite plant, and listen to a plant-friendly tune every time you
+            search
+          </h5>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <a
+                class="text-dark"
+                href="https://github.com/LHafoka13/Project-1"
+                target="_blank"
+                >GitHub</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a
+                class="text-dark"
+                href="https://lhafoka13.github.io/Project-1/"
+                target="_blank"
+                >Live Site</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+        <div class="row shadow-lg p-3 mb-5 rounded">
           <div class="col-md-6">
-            <h3>Weather Dashboard</h3>
-            <h5>
-              Plan your upcoming trip with real-time weather information based
-              on your preferred U.S. City
-            </h5>
-            <ul>
-              <li>
-                <a
-                  class="text-light"
-                  href="https://github.com/rgr5035/Ray-Weather-App"
-                  target="_blank"
-                  >GitHub</a
-                >
-              </li>
-              <li>
-                <a
-                  class="text-light"
-                  href="https://rgr5035.github.io/Ray-Weather-App/"
-                  target="_blank"
-                  >Live Site</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 text-center">
-            <img
-              src="./assets/plant-photo.jpg"
-              alt="Plant photo"
-              class="img-thumbnail"
-            />
-          </div>
-          <div class="col-md-6">
-            <h3>Project One: Get in my Plants!</h3>
-            <h5>
-              Collaborative application that allows the user to search for their
-              favorite plant, and listen to a plant-friendly tune every time you
-              search
-            </h5>
-            <ul>
-              <li>
-                <a
-                  class="text-light"
-                  href="https://github.com/LHafoka13/Project-1"
-                  target="_blank"
-                  >GitHub</a
-                >
-              </li>
-              <li>
-                <a
-                  class="text-light"
-                  href="https://lhafoka13.github.io/Project-1/"
-                  target="_blank"
-                  >Live Site</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 text-center">
             <img
               src="./assets/gift-image.jpg"
               alt="Gift Image"
               class="img-thumbnail"
             />
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 text-center text-dark">
             <h3>Project Two: Santa's Helper</h3>
             <h5>
               Collaborative application that allows the user to create personalized shopping lists for the holiday season, along with referencing gift prices on Etsy via an external API
             </h5>
-            <ul>
-              <li>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
                 <a
-                  class="text-light"
+                  class="text-dark"
                   href="https://github.com/LHafoka13/santas-helper"
                   target="_blank"
                   >GitHub</a
                 >
               </li>
-              <li>
+              <li class="list-group-item">
                 <a
-                  class="text-light"
+                  class="text-dark"
                   href="https://lhafoka13.github.io/Project-1/"
                   target="_blank"
                   >Live Site</a
@@ -223,10 +227,10 @@
           </div>
         </div>
       
-    </main>
+    
     </div>
     <!--Footer information found below-->
-    <footer class="fixed-bottom text-center text-muted bg-dark">
+    <footer class="fixed-bottom text-center text-muted">
       <a
         class="nav-link fab fa-github text-muted"
         href="https://github.com/rgr5035"
