@@ -12,7 +12,6 @@ body {
 
 .shadow-lg {
   background-color: rgb(96, 114, 122);
-  
 }
 
 .container {
@@ -53,13 +52,27 @@ footer {
   padding: 5px;
   margin-top: -5px;
   background-color: rgb(50, 64, 71);
+  font-size: large;
+}
+
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  font-size: large;
+  padding: 15px;
+  margin-bottom: 60px;
+  border-radius: 8px;
+  
 }
 
 #status.success {
+  background-color: rgb(96, 114, 122);
   animation: status 4s ease forwards;
 }
 
 #status.error {
+  background-color: rgb(96, 114, 122);
   animation: status 4s ease forwards;
 }
 

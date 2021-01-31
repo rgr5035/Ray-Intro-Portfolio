@@ -76,7 +76,7 @@
     <!--"Contact Me" information found below in shadowed box-->
     <div class="container justify-content-center">
       
-    <div class="shadow-lg p-3 mb-5 rounded">
+    <div class="shadow-lg p-3 mb-3 rounded">
         <div class="row">
           <div class="col text-center">
             <div class="page-header text-large">
@@ -84,7 +84,7 @@
             </div>
           </div>
         </div>
-        <form action="https://formspree.io/f/mgepqvkw" method="POST">
+        <form action="https://formspree.io/f/mgepqvkw" method="POST" id="contact-form">
 
           <div class="form-row">
 
@@ -111,7 +111,7 @@
           </div>
 
           <div class="form-group pt-3">
-            <label for="user-email">Email address</label>
+            <label>Email address</label>
             <input
               type="email"
               class="form-control"
@@ -130,23 +130,24 @@
               rows="3"
             ></textarea>
           </div>
-          
-        </form>
-        <div class="row">
-          <div class="col text-center">
-            <button type="submit" class="btn btn-secondary btn-lg" id="submit-btn">
-              Submit
-            </button>
+
+          <div class="row pt-3">
+            <div class="col text-center">
+              <button type="submit" class="btn btn-secondary btn-lg" id="form-button">
+                Submit
+              </button>
+            </div>
           </div>
-        </div>
+
+        </form>
+        
     </div>
 
     <div class="row justify-content-center">
       
-      <div class="shadow-lg p-3 rounded success" id="status">
-        Thank you for sharing!
+      <div id="status">
+        
       </div>
-
 
     </div>
   </div>
