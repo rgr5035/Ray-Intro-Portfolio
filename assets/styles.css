@@ -2,6 +2,7 @@
 body {
   font-family: "Manrope", sans-serif;
   background-color: rgb(80, 102, 112);
+  color: rgb(50, 64, 71)
 }
 
 .list-group-item {
@@ -11,6 +12,7 @@ body {
 
 .shadow-lg {
   background-color: rgb(96, 114, 122);
+  
 }
 
 .container {
