@@ -1,22 +1,48 @@
-# Ray-Intro-Portfolio
+# Professional Portfolio
 
-Homework Summary
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-    For this assignment, we had to create a working introductory site about ourselves with various working links to additional pages. Found within these pages are two other sections of the site, one for a standard portfolio with images, the other, a contact form. In addition to these working live links, we also had to ensure that the site was responsive to all screen sizes, meaning that the site can be easily understood from various media screen sources (phone, tablet, monitor, etc.).
+## Description
 
-Page Layouts
+Welcome to my personal portfolio website. Here you can learn more about me and my professional experience, as well as my future goals in the industry. 
 
-    About Me (labeled in Navbar as 'Robby Ray')
-        This main page is the section where you will find a thumbnail image of myself, with an introductory paragraph, all wrapped within a container. The use of the grid system was at play, along with some basic formatting to fit everything within a shadowed box. You will see that once the responsiveness shrinks to smaller screen resolutions, the image will then format itself to align on top of the paragraph, for easier readability. The page finishes with a sticky footer found on the bottom.
+## Table of Contents
 
-    Portfolio Page
-        This section includes another shadowed box containing various thumbnail images laid out in the grid system. Once the screen shrinks for responsiveness, the images will eventually align on top of one another. Standard column formatting was at use for this page. The page finishes with a sticky footer found on the bottom.
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [License](#license)
+* [Questions](#questions)
 
-    Contact Page
-        This section includes yet another shadowed box with a container utilizing various forms to build a standard contact page. The forms are built within the grid system for First & Last Name, Email, and a section for comments. This section is finished off with a 'submit' button (this button is not a working link as of yet, as the assignment was to only demonstrate how to build the responsive layout of the contact form). The page finishes with a sticky footer found on the bottom.
+## Installation
 
-Links to github and live site:
+Please use the following link to navigate to the live site: https://rgr5035.github.io/Ray-Intro-Portfolio/
 
-https://github.com/rgr5035/Ray-Intro-Portfolio
+## Usage
 
-https://rgr5035.github.io/Ray-Intro-Portfolio/
+The landing page includes a short bio about myself and my professional goals. The navbar includes various tabs to explore the site, including a portfolio page, my resume, and a contact form page. The portfolio page showcases my various projects over the course of my boot camp, along with links to their respective GitHuub repositories and live sites. The contact form page allows the user to fill out a form with their contact information to send a personal email to my account. 
+
+## Credits
+
+undefined
+
+## Contributing
+
+This is a personal portfolio page only to be updated by the owner. Any constructive criticism and/or feedback is welcomed and appreciated!
+
+## Tests
+
+N/A
+
+## License
+
+This project is MIT licensed.
+
+## Questions
+
+For more information about this application, or if you have any additional questions, do not hesitate to reach out to me via GitHub or E-mail.
+
+- [Github](https://www.github.com/rgr5035)
+- [Email](mailto:rgr5035@gmail.com)
