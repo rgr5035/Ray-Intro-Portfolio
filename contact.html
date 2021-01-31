@@ -76,8 +76,7 @@
     <!--"Contact Me" information found below in shadowed box-->
     <div class="container justify-content-center">
       
-    <main class="shadow-lg p-3 mb-5 rounded ">
-      
+    <div class="shadow-lg p-3 mb-5 rounded">
         <div class="row">
           <div class="col text-center">
             <div class="page-header text-large">
@@ -85,19 +84,32 @@
             </div>
           </div>
         </div>
-        <form>
+        <form action="">
+
           <div class="form-row">
+
             <div class="col">
               <input
                 type="text"
                 class="form-control"
                 placeholder="First name"
+                id="firstName"
+                name="firstName"
               />
             </div>
+
             <div class="col">
-              <input type="text" class="form-control" placeholder="Last name" />
+              <input 
+                type="text" 
+                class="form-control" 
+                placeholder="Last name"
+                id="lastName"
+                name="lastName"
+              />
             </div>
+
           </div>
+
         </form>
         <form>
           <div class="form-group">
@@ -105,7 +117,8 @@
             <input
               type="email"
               class="form-control"
-              id="user-email"
+              id="email"
+              name="email"
               placeholder="name@example.com"
             />
           </div>
@@ -113,21 +126,30 @@
             <label for="user-message">Share your thoughts</label>
             <textarea
               class="form-control"
-              id="user-message"
+              id="message"
+              name="message"
               rows="3"
             ></textarea>
           </div>
         </form>
         <div class="row">
           <div class="col text-center">
-            <button type="button" class="btn btn-secondary btn-lg" id="submit-btn">
+            <button type="submit" class="btn btn-secondary btn-lg" id="submit-btn">
               Submit
             </button>
           </div>
         </div>
-      
-    </main>
     </div>
+
+    <div class="row justify-content-center">
+      
+      <div class="shadow-lg p-3 rounded success" id="status">
+        Thank you for sharing!
+      </div>
+
+
+    </div>
+  </div>
     <!--Footer information found below-->
     <footer class="fixed-bottom text-center text-muted">
       <a

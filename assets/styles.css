@@ -52,3 +52,27 @@ footer {
   margin-top: -5px;
   background-color: rgb(50, 64, 71);
 }
+
+#status.success {
+  animation: status 4s ease forwards;
+}
+
+#status.error {
+  animation: status 4s ease forwards;
+}
+
+
+@keyframes status {
+  0%{
+    opacity: 1;
+    pointer-events: all;
+  }
+  90%{
+    opacity: 1;
+    pointer-events: all;
+  }
+  100%{
+    opacity: 0;
+    pointer-events: none;
+  }
+} 
