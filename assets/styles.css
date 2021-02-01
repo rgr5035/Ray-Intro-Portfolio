@@ -14,18 +14,31 @@ body {
   background-color: rgb(96, 114, 122);
 }
 
+.about-me-title {
+  font-size: 45px;
+  margin-bottom: 10px;
+  margin-top: 8px; 
+}
+
 .container {
   margin-top: 90px;
 }
 
-/*text formatting for header*/
-.text-large {
-  font-size: 50px;
-  margin-bottom: 10px;
+#portfolio-title {
+  font-size: 45px;
+  margin-top: -30px;
+  margin-bottom: 5px;
 }
 
-.img-thumbnail {
+#contact-form-title {
+  font-size: 45px;
   margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+
+.img-thumbnail {
+  
   height: auto;
   width: auto;
 }
