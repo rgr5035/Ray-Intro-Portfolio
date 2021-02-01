@@ -9,36 +9,26 @@ Welcome to my personal portfolio website. Here you can learn more about me and m
 ## Table of Contents
 
 * [Installation](#installation)
+* [Screenshot](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [Contributing](#contributing)
-* [Tests](#tests)
-* [License](#license)
 * [Questions](#questions)
 
 ## Installation
 
 Please use the following link to navigate to the live site: https://rgr5035.github.io/Ray-Intro-Portfolio/
 
+## Screenshot 
+
+![2021-01-31](https://user-images.githubusercontent.com/70773240/106403285-078bd100-63eb-11eb-9afd-e7e7bf26ce09.png)
+
 ## Usage
 
-The landing page includes a short bio about myself and my professional goals. The navbar includes various tabs to explore the site, including a portfolio page, my resume, and a contact form page. The portfolio page showcases my various projects over the course of my boot camp, along with links to their respective GitHuub repositories and live sites. The contact form page allows the user to fill out a form with their contact information to send a personal email to my account. 
-
-## Credits
-
-undefined
+The landing page includes a short bio about myself and my professional goals. The navbar includes various tabs to explore the site, including a portfolio page, my resume, and a contact form page. The portfolio page showcases my various projects over the course of my boot camp, along with links to their respective GitHub repositories and live sites. The contact form page allows the user to fill out a form with their contact information to send a personal email to my account. 
 
 ## Contributing
 
 This is a personal portfolio page only to be updated by the owner. Any constructive criticism and/or feedback is welcomed and appreciated!
-
-## Tests
-
-N/A
-
-## License
-
-This project is MIT licensed.
 
 ## Questions
 
