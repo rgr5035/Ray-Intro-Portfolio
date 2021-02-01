@@ -16,7 +16,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
     function error() {
       status.classList.add("error");
-      status.innerHTML = "Oops! There was a problem.";
+      status.innerHTML = "Please enter a valid e-mail address";
     }
 
     // handle the form submission event
